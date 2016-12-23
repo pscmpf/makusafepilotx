@@ -51,7 +51,8 @@ var settings = module.exports = {
 
 	functionGlobalContext: {
 		moment: require("moment"),
-		momenttimezone: require("moment-timezone")
+		momenttimezone: require("moment-timezone"),
+		mysql: require("mysql")
 		},
 
     storageModule: require("./couchstorage")
