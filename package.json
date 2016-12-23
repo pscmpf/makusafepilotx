@@ -16,7 +16,13 @@
         "node-red-contrib-scx-ibmiotapp":"0.x",
         "node-red-contrib-ibmpush":"0.x",
         "node-red-contrib-bluemix-hdfs":"0.x",
-        "node-red-nodes-cf-sqldb-dashdb":"0.x"
+        "node-red-nodes-cf-sqldb-dashdb":"0.x",
+        "moment":"2.13.x", 
+        "moment-timezone": "x.x.x", 
+        "node-red-contrib-auth":"x.x.x",
+        "node-red-contrib-jwt":"x.x.x", 
+        "mysql": "^2.5.4",
+        "node-mysql-util": "x.x.x"
     },
     "scripts": {
         "start": "node --max-old-space-size=384 node_modules/node-red/red.js --settings ./bluemix-settings.js -v"
