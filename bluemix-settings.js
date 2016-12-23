@@ -53,8 +53,7 @@ var settings = module.exports = {
 		moment: require("moment"),
 		momenttimezone: require("moment-timezone"),
 		mysql: require("mysql"),
-		mysqlutil: require("node-mysql-util"),
-		process: process},
+		mysqlutil: require("node-mysql-util")},
 
     storageModule: require("./couchstorage")
 }
