@@ -49,8 +49,12 @@ var settings = module.exports = {
     // Serve up the welcome page
     httpStatic: path.join(__dirname,"public"),
 
-    
-	functionGlobalContext: { },
+	functionGlobalContext: { moment: require("moment"), 
+                            momenttimezone: require("moment-timezone"), 
+                            mysql: require("mysql"),
+                            mysqlutil: require("node-mysql-util"),
+                            process: process,
+                            },
 
     storageModule: require("./couchstorage")
 }
