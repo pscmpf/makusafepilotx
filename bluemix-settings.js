@@ -50,12 +50,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     
-	functionGlobalContext: { moment: require("moment"), 
-                            momenttimezone: require("moment-timezone"), 
-                            mysql: require("mysql"),
-                            mysqlutil: require("node-mysql-util"),
-                            process: process,
-                            },
+	functionGlobalContext: { },
 
     storageModule: require("./couchstorage")
 }
